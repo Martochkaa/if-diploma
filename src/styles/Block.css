@@ -1,0 +1,9 @@
+.block-title {
+    text-align: center;
+}
+
+@media only screen and (max-width: 720px) {
+    .block-title {
+        font: 20px Roboto, sans-serif;
+    }
+}

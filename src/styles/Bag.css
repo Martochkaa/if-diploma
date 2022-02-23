@@ -1,0 +1,172 @@
+.section-bag {
+    padding: 40px 450px 120px;
+}
+
+.title-bag {
+    font: 20px Helvetica Neue LT Std, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-right: 20px;
+}
+
+.quantity-bag {
+    font: 12px Helvetica Neue LT Std, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.container-bag {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.descrContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.image-bag {
+    width: 160px;
+    height: 230px;
+}
+
+.itemName {
+    font: 16px Helvetica Neue LT Std, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.text-bag {
+    font: 13px Helvetica Neue LT Std, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+}
+
+.bag__selectContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+select {
+    width: 100px;
+    border: none;
+}
+
+.bag__selectNumber {
+    width: 45px;
+}
+
+option {
+    font: 12px Helvetica Neue LT Std, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.change {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.removeContainer {
+    margin: 40px 0 30px;
+    text-align: right;
+}
+
+.cross-bag {
+    width: 12px;
+    height: 12px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.Container-bag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.total {
+    font: 20px Helvetica Neue LT Std, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.button-bag {
+    width: 240px;
+    height: 50px;
+    background-color: #000F08;
+    color: #FFFFFF;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.icon-bag {
+    width: 40px;
+    height: 24px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.iconContainer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.message-bag {
+    margin: 50px auto;
+    text-align: center;
+
+}
+
+.back {
+    color: black;
+    text-decoration: underline;
+    left: 10px;
+    position: absolute;
+}
+
+.bag__arrow {
+    width: 40px;
+    height: 10px;
+    left: 10px;
+    position: absolute;
+}
+
+.toBag {
+    width: 140px;
+    height: 40px;
+    background-color: #000F08;
+    color: #FFFFFF;
+    margin-right: 80px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 720px) {
+    .section-bag {
+        padding: 40px 10px 120px;
+    }
+
+    .back {
+        display: none;
+    }
+
+}
